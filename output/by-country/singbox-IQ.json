@@ -4,15 +4,17 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
-      "tag": "🇸🇩 SD 01 - xiaohe",
-      "server": "z-jp1.1card.cc",
-      "server_port": 10012,
-      "password": "ultra@kWZdAzt_IH593eGLRjdxnBZ0",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true
+      "type": "vless",
+      "tag": "🇮🇶 IQ 01 - xiaohe",
+      "server": "104.21.87.238",
+      "server_port": 8080,
+      "uuid": "8f53fce2-6c17-4e37-9ae9-d969fd85117c",
+      "transport": {
+        "type": "ws",
+        "path": "/vl/Wp4FqWLcoYNYXCovu4?ed=2560",
+        "headers": {
+          "Host": "ApI-hub-C9A393.ALiMiRZAi539-484.WOrKerS.DeV"
+        }
       }
     },
     {
@@ -20,14 +22,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇩 SD 01 - xiaohe"
+        "🇮🇶 IQ 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇩 SD 01 - xiaohe"
+        "🇮🇶 IQ 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
