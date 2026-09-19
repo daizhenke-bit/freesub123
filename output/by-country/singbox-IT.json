@@ -48,6 +48,29 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇮🇹 意大利 (Italy) 05 - xiaohe",
+      "server": "116.204.164.30",
+      "server_port": 7443,
+      "uuid": "dcd08975-739e-44c7-9022-7c7fcb87e74b",
+      "tls": {
+        "enabled": true,
+        "server_name": "8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/@Marisa_kristi",
+        "headers": {
+          "Host": "8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -55,7 +78,8 @@
         "🇮🇹 意大利 (Italy) 01 - xiaohe",
         "🇮🇹 意大利 (Italy) 02 - xiaohe",
         "🇮🇹 意大利 (Italy) 03 - xiaohe",
-        "🇮🇹 意大利 (Italy) 04 - xiaohe"
+        "🇮🇹 意大利 (Italy) 04 - xiaohe",
+        "🇮🇹 意大利 (Italy) 05 - xiaohe"
       ]
     },
     {
@@ -65,7 +89,8 @@
         "🇮🇹 意大利 (Italy) 01 - xiaohe",
         "🇮🇹 意大利 (Italy) 02 - xiaohe",
         "🇮🇹 意大利 (Italy) 03 - xiaohe",
-        "🇮🇹 意大利 (Italy) 04 - xiaohe"
+        "🇮🇹 意大利 (Italy) 04 - xiaohe",
+        "🇮🇹 意大利 (Italy) 05 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
