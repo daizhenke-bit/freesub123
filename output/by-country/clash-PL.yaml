@@ -26,14 +26,18 @@ proxies:
   servername: cloudflare.com
   client-fingerprint: ''
 - name: 🇵🇱 波兰 (Poland) 03 - xiaohe
-  server: 2.26.6.1
-  port: 2087
+  server: 77.232.135.141
+  port: 8445
   udp: true
   type: vless
-  uuid: b9fdc03f-389b-4cda-9be4-155b623bee15
+  uuid: 36cf792c-f07d-4500-97ea-a395e5178deb
   tls: true
-  servername: 2.26.6.1
+  servername: ru1.radiolumens.uk
   skip-cert-verify: false
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: beru-pl
 proxy-groups:
 - name: PROXIES
   type: select
