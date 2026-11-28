@@ -4,22 +4,15 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "cf.877774.xyz",
+      "type": "anytls",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe",
+      "server": "mfjh645drfj1dr6j5.df6h451rh.xin",
       "server_port": 443,
-      "uuid": "53580685-9d8b-42ca-9b84-c93765d9b952",
+      "password": "0324fbc29561",
       "tls": {
         "enabled": true,
-        "server_name": "institutes-creativity-cards-affairs.trycloudflare.com",
+        "server_name": "px.ads.linkedin.com",
         "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vl-53580685",
-        "headers": {
-          "Host": "institutes-creativity-cards-affairs.trycloudflare.com"
-        }
       }
     },
     {
@@ -27,14 +20,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🌐 其他地区 (Other) 01 - xiaohe"
+        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🌐 其他地区 (Other) 01 - xiaohe"
+        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
